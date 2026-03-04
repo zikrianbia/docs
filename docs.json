@@ -17,52 +17,26 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started/first-login",
+              "getting-started/account-setup",
+              "getting-started/define-role",
+              "getting-started/skills-profile",
+              "getting-started/career-aspirations"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Platforms",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "talented",
+              "talenttrack-plus",
+              "future-skills-accelerator"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Feature: Talent Marketplace",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "features/talent-marketplace/welcome",
+              "features/talent-marketplace/setup"
             ]
           }
         ]
@@ -102,15 +76,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {

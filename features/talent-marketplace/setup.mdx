@@ -1,0 +1,117 @@
+---
+title: "Organisation Setup Guide"
+description: "A guide for administrators to set up users and configure the organisation’s job architecture."
+---
+
+This guide is intended for administrators responsible for setting up users and configuring the organisation’s job architecture.
+
+## Accessing the Admin Panel
+
+To manage users or configure organisational settings:
+
+1. Click on the **Profile Menu**.
+2. Select **Admin Panel**.
+
+From the Admin Panel, you can:
+* Manage users
+* Configure job architecture
+
+## User Management
+
+Administrators can create and assign roles to different types of users.
+
+### Create a new user
+
+<Steps>
+  <Step title="Navigate to User Management">
+    Go to the **Admin Panel** and select the **User Management** tab.
+  </Step>
+  <Step title="Initiate Creation">
+    Click **+ Create User**.
+  </Step>
+  <Step title="Enter Details">
+    Enter the user’s details and assign the appropriate role(s).
+  </Step>
+  <Step title="Finalize">
+    Click **Create**. The invited user will receive an activation email.
+  </Step>
+</Steps>
+
+### User Roles
+
+Different roles provide different access permissions.
+
+| Role | Required Assignments | Description |
+| :--- | :--- | :--- |
+| **Super Admin** | TM Super Admin + TM User | Full access. The first registered user is automatically assigned this role. |
+| **Job Owner** | TA Job Owner + TM User | Accountable for the job’s objectives, purpose, and outcomes. |
+| **Hiring Manager** | TA Partner Admin + TM User | Oversees recruitment and day-to-day role supervision. |
+| **Internal Employee** | TM User | Regular employee access to platform features and recommendations. |
+
+<Note>
+  The **TM User** assignment is mandatory for all roles to access the Talent Marketplace features.
+</Note>
+
+## Configuring Job Architecture
+
+Administrators can define the organisation’s job structure to enable accurate mapping and recommendations.
+
+### Create a new job hierarchy
+
+1. Go to the **Admin Panel**.
+2. Navigate to the **Job Architecture** tab.
+3. Click **Create Job Hierarchy/Pathway**.
+
+### Understanding Job Hierarchy Levels
+
+The platform supports structured job levels:
+
+* **L1** – Entity or subsidiary
+* **L2** – Division
+* **L3** – Department
+* **L4** – Job role
+* **L5** – Job profile or job title
+* **L7** – Job rank name
+
+<Info>
+  **Rank Level** represents the seniority level. Lower numbers indicate higher rank (e.g., Level 1 is more senior than Level 5).
+</Info>
+
+### Job Architecture Rules
+
+When configuring your hierarchy, keep these rules in mind:
+* Each level can only have **one parent**.
+* **L1–L4** must maintain unique parent relationships.
+* **L5 and L7** may be reused across different branches.
+
+### Step-by-Step Configuration
+
+<Steps>
+  <Step title="Hierarchy Setup">
+    Enter values for **L1–L4** and review the hierarchy preview.
+  </Step>
+  <Step title="Job Profiles">
+    Add up to three job profiles (**L5**).
+  </Step>
+  <Step title="Seniority">
+    Assign **Rank Level** values and define **Rank Names (L7)**.
+  </Step>
+  <Step title="Content">
+    Add job descriptions and required skills for each role.
+  </Step>
+  <Step title="Save">
+    Review the final hierarchy preview and click **Create** to save.
+  </Step>
+</Steps>
+
+## Why Job Architecture Matters
+
+Proper job architecture is the foundation for platform intelligence, enabling:
+* Accurate role mapping
+* Relevant skill recommendations
+* Structured career pathways
+* Clear internal mobility alignment
+
+<Warning>
+  Incomplete or inconsistent hierarchy configuration may affect matching accuracy across the platform.
+</Warning>
