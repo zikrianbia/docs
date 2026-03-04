@@ -51,13 +51,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hi@support.jobtech.co"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Submit a request",
+      "href": "https://help.jobtech.co"
     }
   },
   "contextual": {
