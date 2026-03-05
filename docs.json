@@ -36,7 +36,22 @@
             "group": "Feature: Talent Marketplace",
             "pages": [
               "features/talent-marketplace/welcome",
-              "features/talent-marketplace/setup"
+              "features/talent-marketplace/setup",
+              "features/talent-marketplace/career-insights",
+              "features/talent-marketplace/learn",
+              "features/talent-marketplace/my-profile",
+              "features/talent-marketplace/bookmarks",
+              "features/talent-marketplace/notifications",
+              "features/talent-marketplace/help"
+            ]
+          },
+          {
+            "group": "Feature: Talent Attraction",
+            "pages": [
+              "features/talent-attraction/overview",
+              "features/talent-attraction/post-a-job",
+              "features/talent-attraction/manage-talent",
+              "features/talent-attraction/manage-jobs"
             ]
           }
         ]
