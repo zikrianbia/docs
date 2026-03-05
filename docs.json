@@ -18,10 +18,13 @@
             "pages": [
               "index",
               "getting-started/first-login",
+              "getting-started/navigating-homepage",
               "getting-started/account-setup",
+              "getting-started/managing-profile",
               "getting-started/define-role",
               "getting-started/skills-profile",
-              "getting-started/career-aspirations"
+              "getting-started/career-aspirations",
+              "getting-started/skills-dictionary"
             ]
           },
           {
