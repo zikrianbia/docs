@@ -43,6 +43,11 @@
               "features/talent-marketplace/setup",
               "features/talent-marketplace/career-insights",
               "features/talent-marketplace/learn",
+              "features/talent-marketplace/gigs",
+              "features/talent-marketplace/jobs",
+              "features/talent-marketplace/team-and-members",
+              "features/talent-marketplace/idp",
+              "features/talent-marketplace/talent-future-index",
               "features/talent-marketplace/my-profile",
               "features/talent-marketplace/bookmarks",
               "features/talent-marketplace/notifications",
@@ -56,6 +61,24 @@
               "features/talent-attraction/post-a-job",
               "features/talent-attraction/manage-talent",
               "features/talent-attraction/manage-jobs"
+            ]
+          },
+          {
+            "group": "Feature: Analytics Dashboard",
+            "pages": [
+              "features/analytics-dashboard/analytics-dashboard"
+            ]
+          },
+          {
+            "group": "Feature: Skills Inventory",
+            "pages": [
+              "features/skills-inventory/skills-inventory"
+            ]
+          },
+          {
+            "group": "Feature: User Directory",
+            "pages": [
+              "features/user-directory/user-directory"
             ]
           }
         ]
