@@ -14,9 +14,17 @@
         "tab": " ",
         "groups": [
           {
-            "group": "Getting started",
+            "group": " ",
             "pages": [
               "index",
+              "talented",
+              "talenttrack-plus",
+              "future-skills-accelerator"
+            ]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
               "getting-started/first-login",
               "getting-started/account-setup",
               "getting-started/define-role",
@@ -26,14 +34,6 @@
               "getting-started/navigating-homepage",
               "getting-started/managing-profile",
               "getting-started/skills-dictionary"
-            ]
-          },
-          {
-            "group": "Platforms",
-            "pages": [
-              "talented",
-              "talenttrack-plus",
-              "future-skills-accelerator"
             ]
           },
           {
