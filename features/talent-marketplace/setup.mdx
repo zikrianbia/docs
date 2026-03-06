@@ -14,8 +14,9 @@ To manage users or configure organisational settings:
 2. Select [**Admin Panel**](https://app.betalented.ai/admin).
 
 From the Admin Panel, you can:
-* Manage users
-* Create job architecture
+
+- Manage users
+- Create job architecture
 
 ## User Management
 
@@ -28,7 +29,7 @@ Administrators can create and assign roles to different types of users.
     Go to the [**Admin Panel**](https://app.betalented.ai/admin) and select the **User Management** tab.
   </Step>
   <Step title="Initiate Creation">
-    Click **+ Create User**.
+    Click **\+ Create User**.
   </Step>
   <Step title="Enter Details">
     Enter the user’s details and assign the appropriate role(s).
@@ -44,21 +45,21 @@ Different roles provide different access permissions.
 
 #### Talent Marketplace (TM) Roles
 
-| Role | Description |
-| :--- | :--- |
-| **TM Super Admin** | The primary organizational administrator who holds full system permissions and is automatically assigned to the first user who signs up for the company account. |
-| **TM User** | The mandatory baseline role required for any employee to access core features like skill profiling, course recommendations, and the learning dashboard. |
-| **TM Gig Creator** | An administrative role specifically responsible for creating, posting, and managing short-term internal projects or "gigs". |
-| **TM Skills Inventory Admin** | An administrator focused on managing the organization's overarching skills database and monitoring high-level workforce capability trends. |
+| Role                          | Description                                                                                                                                                      |
+| :---------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TM Super Admin**            | The primary organizational administrator who holds full system permissions and is automatically assigned to the first user who signs up for the company account. |
+| **TM User**                   | The mandatory baseline role required for any employee to access core features like skill profiling, course recommendations, and the learning dashboard.          |
+| **TM Gig Creator**            | An administrative role specifically responsible for creating, posting, and managing short-term internal projects or "gigs".                                      |
+| **TM Skills Inventory Admin** | An administrator focused on managing the organization's overarching skills database and monitoring high-level workforce capability trends.                       |
 
 #### Talent Attraction (TA) Roles
 
-| Role | Description |
-| :--- | :--- |
-| **TA Super Admin** | A recruitment-focused administrator who supervises all organizational job postings and manages high-level candidate matching workflows. |
+| Role                 | Description                                                                                                                                              |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **TA Super Admin**   | A recruitment-focused administrator who supervises all organizational job postings and manages high-level candidate matching workflows.                  |
 | **TA Partner Admin** | The direct hiring manager responsible for the hands-on recruitment process, including interviewing, onboarding, and day-to-day supervision of new hires. |
-| **TA Job Owner** | The individual or business unit accountable for a specific role's existence, budgetary impact, and overall performance metrics. |
-| **TA Jobseeker** | An internal employee role that enables non-HR staff to receive personalized job matches and apply for open opportunities within the company |
+| **TA Job Owner**     | The individual or business unit accountable for a specific role's existence, budgetary impact, and overall performance metrics.                          |
+| **TA Jobseeker**     | An internal employee role that enables non-HR staff to receive personalized job matches and apply for open opportunities within the company              |
 
 <Note>
   The **TM User** assignment is mandatory for all users to access the Talent Marketplace features.
@@ -73,7 +74,6 @@ Administrators can define the organisation’s job structure to enable accurate 
 1. Go to the [**Admin Panel**](https://app.betalented.ai/admin).
 2. Navigate to the **Job Architecture** tab.
 3. Click **Create Job Hierarchy/Pathway**.
-
 
 ### Step-by-Step Configuration
 
@@ -90,22 +90,21 @@ Administrators can define the organisation’s job structure to enable accurate 
   <Step title="Content">
     Add job descriptions and required skills for each role.
   </Step>
-  <Step title="Save">
+  <Step title="Save changes">
     Review the final hierarchy preview and click **Create** to save.
   </Step>
 </Steps>
-
 
 ### Understanding Job Hierarchy Levels
 
 The platform supports structured job levels:
 
-* **L1** – Entity or subsidiary
-* **L2** – Division
-* **L3** – Department
-* **L4** – Job role
-* **L5** – Job profile or job title
-* **L7** – Job rank name
+- **L1** – Entity or subsidiary
+- **L2** – Division
+- **L3** – Department
+- **L4** – Job role
+- **L5** – Job profile or job title
+- **L7** – Job rank name
 
 <Info>
   **Rank Level** represents the seniority level. Lower numbers indicate higher rank (e.g., Level 1 is more senior than Level 5).
@@ -115,33 +114,44 @@ The platform supports structured job levels:
 
 When configuring your hierarchy, the primary rule is that **"One child can only have one parent"**.
 
-* **L1–L4** must maintain unique parent relationships. You cannot use the same name for a level if it is being assigned to a different parent.
-* **L5 and L7** are flexible and can be reused multiple times across different branches of the hierarchy.
+- **L1–L4** must maintain unique parent relationships. You cannot use the same name for a level if it is being assigned to a different parent.
+- **L5 and L7** are flexible and can be reused multiple times across different branches of the hierarchy.
 
 #### Examples of Hierarchy Logic
 
 **1. Initial Valid Entry**
-* <code>JobTech Australia (L1) > Product (L2) > Career+ (L3) > Product Development (L4) > Product Manager (L5) > Senior Manager (L7)</code>
+
+- <code>JobTech Australia (L1) > Product (L2) > Career+ (L3) > Product Development (L4) > Product Manager (L5) > Senior Manager (L7)</code>
 
 **2. Incorrect Mapping (Duplicate Child)**
-* <code>JobTech Australia (L1) > Product (L2) > TalentTrack+ (L3) > <span style={{ color: '#ef4444' }}>Product Development (L4)</span></code>
-* **Why it fails:** You cannot use "Product Development" as an L4 under "TalentTrack+" because it is already mapped to "Career+".
+
+- <code>JobTech Australia (L1) > Product (L2) > TalentTrack+ (L3) > <span style={{ color: '#ef4444' }}>Product Development (L4)</span></code>
+- **Why it fails:** You cannot use "Product Development" as an L4 under "TalentTrack+" because it is already mapped to "Career+".
 
 **3. Correct Mapping (Unique Child Name)**
-* <code>JobTech Australia (L1) > Product (L2) > TalentTrack+ (L3) > <span style={{ color: '#16a34a' }}>TalentTrack+ Product Development (L4)</span> > Product Manager (L5) > Senior Manager (L7)</code>
-* **Note:** Using a unique name for L4 resolves the conflict. Notice that L5 and L7 names can still be reused.
+
+- <code>JobTech Australia (L1) > Product (L2) > TalentTrack+ (L3) > <span style={{ color: '#16a34a' }}>TalentTrack+ Product Development (L4)</span> > Product Manager (L5) > Senior Manager (L7)</code>
+- **Note:** Using a unique name for L4 resolves the conflict. Notice that L5 and L7 names can still be reused.
 
 **4. Regional Differentiation**
-* <span style={{ color: '#ef4444' }}>**Incorrect:**</span> <code>JobTech Singapore > Product</code> (Because "Product" is already a child of a different (L1/entity). Refer to point no 1)
-* <span style={{ color: '#16a34a' }}>**Correct:**</span> <code>JobTech Singapore > Product (SG) > TalentTrack+ (SG) > Product Development (SG) > Project Manager (L5) > Senior Manager (L7)</code>
+
+- <span style={{ color: '#ef4444' }}>**Incorrect:**</span>
+
+   <code>JobTech Singapore > Product</code>
+
+   (Because "Product" is already a child of a different (L1/entity). Refer to point no 1)
+- <span style={{ color: '#16a34a' }}>**Correct:**</span>
+
+   <code>JobTech Singapore > Product (SG) > TalentTrack+ (SG) > Product Development (SG) > Project Manager (L5) > Senior Manager (L7)</code>
 
 ## Why Job Architecture Matters
 
 Proper job architecture is the foundation for platform intelligence, enabling:
-* Accurate role matching
-* Hyper personalised recommendations
-* Structured career pathways
-* Clear internal mobility alignment
+
+- Accurate role matching
+- Hyper personalised recommendations
+- Structured career pathways
+- Clear internal mobility alignment
 
 <Warning>
   Incomplete or inconsistent hierarchy configuration may affect matching accuracy across the platform.
