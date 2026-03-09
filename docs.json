@@ -90,12 +90,7 @@
     "dark": "/logo/dark.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@support.jobtech.co"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Submit a request",
